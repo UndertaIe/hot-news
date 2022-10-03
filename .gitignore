@@ -14,10 +14,4 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-config.yaml
-
-storage
-
 log
-
-__debug_bin
