@@ -1,5 +1,18 @@
-package crawler
+package spider
 
-func (s *Spider) Use(middleware ...string) (s *Spider) {
+func init() {
+
+}
+
+type middleware interface {
+	before(r *Request) *Request
+	After()
+}
+
+func registerMiddlewares() {
+
+}
+
+func PrintMiddlewares() {
 
 }
